@@ -1,0 +1,880 @@
+body {
+    font-family: 'Montserrat', sans-serif;;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+a:hover {
+    color: #FF5027;
+  }
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+li {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+header {
+    background-color: #5FBBEA;
+    color: #ffd000;
+    text-shadow: 4px 3px 0 rgba(0,0,0,0.3), -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
+    font-weight: 800;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-family: 'Rock Salt', cursive;
+    font-size: 22px;
+}
+
+.isologo-cabecera {
+    display: flex;
+    align-items:center;
+}
+
+.isologo{
+    width: 60px; /* Ajusta el ancho de la imagen según necesidades */
+    height: auto; /* Para mantener la proporción */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.tituloWeb {
+    margin: 0; /* Elimina el margen predeterminado del encabezado */
+}
+
+nav {
+    background-color: #161616;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+nav a:hover {
+    color: #FF5027;
+  }
+
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7; 
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.hero-text h1{
+    font-size: 40px;
+    color: #161616; 
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-text p {
+    font-size: 30px;
+    color: #161616; 
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#banner {
+    background-color: #161616;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    margin-top: 40px;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+
+
+}
+
+.tituloBanner{
+
+    color: #ffd000;
+    text-shadow: 4px 3px 0 rgba(71, 71, 71, 0.3); 
+    font-weight: 800;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+
+}
+
+.textoBanner{
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 800;
+}
+
+main{
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.isologo-pie{
+
+    width: 50px;
+    height: auto; /* Para mantener la proporción */
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+.menu-pie{
+align-items: center;
+
+}
+
+/* Contenido de la portada*/
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Color del texto, puedes cambiarlo */
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 2.5em; /* Tamaño del título, puedes cambiarlo */
+    margin-bottom: 20px; /* Ajusta el margen inferior según tus necesidades */
+}
+
+.main-portada{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-center{
+    text-align: center;
+}
+
+.welcome-img {
+    max-width: 100%;
+    height: auto;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 75% 80%, 75% 100%, 50% 80%, 0% 80%);
+}
+
+.textoPortada{
+
+    line-height: 1.5;
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+
+}
+
+/* Contenido de la página de enlaces*/
+
+.enlace-tituloWeb:hover{
+ 
+   color: #ffd000;
+   text-shadow: 4px 3px 0 rgba(77, 76, 76, 0.3); 
+   font-weight: 800;
+    
+}
+
+.div-main_Enlaces{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+.listadoEnlaces{
+
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 2.5em;
+
+}
+
+.tituloEnlace_listado{
+
+    font-size: 23px;
+    font-weight: 600;
+    color:#FF5027;
+}
+
+.tituloEnlace_listado{
+
+    padding: 20px;
+}
+
+.slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+
+/*Contenido de la página de categorias*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+  
+.grid-item {
+    border: 1px solid #ddd;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+  
+.grid-item img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.enlacesCategorias{
+
+    color: #FF5027;
+
+}
+
+.enlacesCategorias:hover{
+
+    text-decoration: underline;
+}
+
+/*Contenido de la página de detalles*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.tituloDetalles {
+    color: #333;
+    padding-bottom: 20px;
+    font-size: 36px;
+}
+
+.firmaArticulo{
+
+    text-align: left;
+    line-height: 0.5;
+    padding-bottom: 10px;
+
+}
+
+.firmaArticulo_Autor{
+color: #FF5027;
+}
+
+.firmaArticulo_Fecha{
+    color: #333;
+    font-size: 14px;
+}
+
+.tituloDetalles-relacionados {
+    color: #333;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.articuloDetalles {
+
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+figure {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+figcaption {
+    text-align: left;
+    color: #777;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.imgDetalles {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.contenedor-detalle {
+    display: flex;
+    flex-direction: row; /* Por defecto, los elementos estarán en fila (uno al lado del otro) */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.imgDetalles-texto {
+    max-width: 100%; /* La imagen no sobrepasará su contenedor */
+}
+
+.imgDetalles-pie{
+    font-size: 12px;
+}
+
+
+.textoDetalles {
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.textoDetallesImgLeft {
+    margin-left: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.textoDetallesImgRight {
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.paddingTop30{
+    padding: 30px;
+}
+
+.textodestacado{
+
+    text-align: justify;
+    font-size: 18px;
+    color: #FF5027;
+}
+
+.div-iframe {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporción de aspecto 16:9 para el alto */
+    overflow: hidden;
+}
+
+.div-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    width: 28%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.listadoDetalles {
+    list-style: none;
+    padding: 0;
+}
+
+.listadoDetalles-articulo {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.listadoDetalles-articulo .listadoDetalles-articulo-img {
+    max-width: 70px;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 30%;
+}
+
+/*Contenido de la página de presentación*/
+
+.containerPresentacion {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Presentacion {
+    margin-bottom: 20px;
+}
+
+.tituloPresentacion {
+    color: #FF5027;
+    font-size: 30px;
+}
+
+.lead {
+    margin-bottom: 20px;
+}
+
+.textoPresentacion {
+    line-height: 1.5;
+    color: #555;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.iframe {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pie-iframePresentacion {
+    color: #333;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.seccionPresentacion {
+    margin-bottom: 40px;
+}
+
+svg {
+    display: block;
+    margin: auto;
+    margin-top: 50px; /* Ajusta según sea necesario */
+  }
+
+/*Contenido de la página del jefe Wiggum*/
+
+.containerWiggum {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 15px groove #8E97B0;
+    padding: 20px;
+    text-align: center;
+    background-color: #AA9CD5;
+}
+
+.tituloWiggum {
+    color: #161616;
+    font-size: 36px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgWiggum {
+    max-width: 50%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.textoWiggum {
+    color: #161616;
+    font-size: 20px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4b0fff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3206b8;
+}
+
+.containerProduct {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.productTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.productImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.productDescription {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/*Contenido de los Enlaces*/
+.tituloEnlace{
+
+    font-size: 50px;
+    color: #FF5027;
+    text-align: center;
+}
+
+.tituloEnlace_listado{
+    color: #FF5027;
+}
+
+.referenciaAPA{
+    font-size: 18px;
+    font-weight: 800;
+    color: #333;
+}
+
+.referenciaAPA-enlace{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+
+/*Contenido del pie*/
+
+.terminos_index{
+    display: inline-block;
+}
+
+.enlacePie{
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #F3F3F3;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.terminos_index {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.enlacePie {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.firma_index {
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    /*Estilos generales responsive*/
+
+    header {
+        text-align: center;
+    }
+
+    .tituloWeb{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .isologo {
+        width: 10px;
+        padding-left: 10px;
+    }
+
+    .tituloBanner {
+        font-size: 24px;
+    }
+
+    .hero-text h1{
+        font-size: 20px;
+    }
+    .hero-text p{
+       display: none;
+    }
+
+    #banner {
+        padding: 20px;
+        margin: 10px 0;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    main {
+        max-width: 100%;
+        margin: 5% 2%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+
+    .container-center{
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .welcome-img{
+    
+    width: 300px;
+
+    }
+
+    .textoPortada{      
+        font-size: 18px;
+    }
+
+    .isologo-pie{
+
+        width: 40px;
+        height: auto;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    
+    }
+
+    .terminos_index {
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .firma_index{
+        font-size: 14px;
+    }
+
+    /*Contenido de la página de categorias para 600px*/
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    /*Contenido de la página de Presentación*/
+
+    .containerPresentacion {
+        padding: 20px;
+    }
+
+    /*Contenido de la página de jefe Wiggum para 600px*/
+
+    .containerWiggum {
+        padding: 10px;
+    }
+
+    .containerProduct {
+        max-width: 100%; /* Para que ocupe todo el ancho en pantallas más pequeñas */
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    article, aside {
+        margin-bottom: 20px;
+        width: auto;
+    }
+
+    .articuloDetalles{
+        text-align: center;
+    }
+    .contenedor-detalle {
+        flex-direction: column; /* Cambia a columna en dispositivos móviles */
+        align-items: center; /* Centra horizontalmente los elementos */
+    }
+
+    .textoDetalles {
+        margin-left: 0; /* Elimina el margen izquierdo en dispositivos móviles */
+        margin-top: 20px; /* Agrega espacio entre la imagen y el texto en dispositivos móviles */
+    }
+
+}
+
+/* Estilos generales responsive para tabletas */
+@media only screen and (max-width: 1024px) {
+
+    header {
+        padding: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .isologo {
+        width: 80px;
+    }
+
+    .tituloBanner {
+        font-size: 24px;
+    }
+
+    #banner {
+        padding: 20px;
+        margin: 10px 0;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .hero-text p{
+       display: none;
+    }
+
+    main {
+        max-width: 100%;
+        margin: 5% 2%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+
+    .textoPortada {
+        margin: 5%;
+        font-size: 18px;
+    }
+
+    .terminos_index {
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .firma_index {
+        font-size: 14px;
+    }
+
+    /* Contenido de la página de categorías para tabletas */
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Contenido de la página de Presentación para tabletas */
+    .containerPresentacion {
+        padding: 20px;
+    }
+
+    /* Contenido de la página de jefe Wiggum para tabletas */
+    .containerWiggum {
+        padding: 10px;
+    }
+
+    .containerProduct {
+        max-width: 100%; /* Para que ocupe todo el ancho en pantallas más pequeñas */
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    article, aside {
+        margin-bottom: 20px;
+        width: auto;
+    }
+
+    .articuloDetalles {
+        text-align: center;
+    }
+}
+
+
+ 
