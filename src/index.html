@@ -7,12 +7,6 @@
     <title>Sutilmente Amarillo</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" defer>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" defer>
     
 </head>
 <body>
@@ -59,5 +53,16 @@
             <p>2023 &copy; Jesús Martínez Hernández</p>
         </div>
     </footer>
+    <script async>
+        const linkMontserrat = document.createElement('link');
+        linkMontserrat.rel = 'stylesheet';
+        linkMontserrat.href = 'https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap';
+        document.head.appendChild(linkMontserrat);
+    
+        const linkRockSaltSans = document.createElement('link');
+        linkRockSaltSans.rel = 'stylesheet';
+        linkRockSaltSans.href = 'https://fonts.googleapis.com/css2?family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+        document.head.appendChild(linkRockSaltSans);
+    </script>
 </body>
 </html>
