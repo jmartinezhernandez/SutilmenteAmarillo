@@ -7,13 +7,6 @@
     <title>Sutilmente Amarillo</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    
 </head>
 <body>
     <header>
@@ -25,28 +18,28 @@
     <main class="grid-container">
         <div class="grid-item">
           <h2 class="tituloCategorias">Los Simpson son algo más que una serie de "dibujitos"</h2>
-          <img src="img/portadaArticulo1.jpg" alt="La madre de Homer arropando a Homer">
+          <img src="img/portadaArticulo1.jpg" alt="La madre de Homer arropando a Homer" loading="lazy">
           <p>Como la serie de la familia de Springfield es más profunda de lo que la gente piensa.</p>
           <a class="enlacesCategorias" href="detalle1.html">LEER MÁS</a>
         </div>
       
         <div class="grid-item">
           <h2 class="tituloCategorias">La razón real de la muerte de Maude Flanders</h2>
-          <img src="img/portadaArticulo2.jpg" alt="Ned Flanders discutiendo con Maude Flanders, mientras ella sostiene unas toallas">
+          <img src="img/portadaArticulo2.jpg" alt="Ned Flanders discutiendo con Maude Flanders, mientras ella sostiene unas toallas" loading="lazy">
           <p>En este artículo se observa la razón real de porque dejo de aparecer Maude Flanders en la serie. </p>
           <a class="enlacesCategorias" href="detalle2.html">LEER MÁS</a>
         </div>
       
         <div class="grid-item">
           <h2 class="tituloCategorias">La profundidad en Los Simpson: Sátira Social y Comentarios Políticos</h2>
-          <img src="img/portadaArticulo3.jpg" alt="Homer conduciendo al mismo tiempo que mira el móvil. Al lado marge con el móvil confundida.">
+          <img src="img/portadaArticulo3.jpg" alt="Homer conduciendo al mismo tiempo que mira el móvil. Al lado marge con el móvil confundida." loading="lazy">
           <p>¿Qué hay más allá de la superficie?</p>
           <a class="enlacesCategorias" href="detalle3.html">LEER MÁS</a>
         </div>
 
         <div class="grid-item">
             <h2 class="tituloCategorias">Simulador del Departamento de Policía de Springfield</h2>
-            <img src="img/clancy-wiggum.png" alt="Imagen del personaje Clancy Wiggum">
+            <img src="img/clancy-wiggum.png" alt="Imagen del personaje Clancy Wiggum" loading="lazy">
             <p>Simulador del sitio web del Departamento de Policía de Springfield; basado en una escena de Homer navegando por la red</p>
             <a class="enlacesCategorias" href="jefeWiggum.html">LEER MÁS</a>
           </div>
@@ -65,5 +58,16 @@
             <p>2023 &copy; Jesús Martínez Hernández</p>
         </div>
     </footer>
+    <script async>
+        const linkMontserrat = document.createElement('link');
+        linkMontserrat.rel = 'stylesheet';
+        linkMontserrat.href = 'https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap';
+        document.head.appendChild(linkMontserrat);
+    
+        const linkRockSaltSans = document.createElement('link');
+        linkRockSaltSans.rel = 'stylesheet';
+        linkRockSaltSans.href = 'https://fonts.googleapis.com/css2?family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+        document.head.appendChild(linkRockSaltSans);
+    </script>
 </body>
 </html>
