@@ -6,14 +6,7 @@
     <meta name="description" content="Explora el fascinante mundo de las curiosidades de Los Simpson en Sutilmente Amarillo. Descubre detalles ocultos, referencias humorísticas y secretos detrás de la icónica serie animada. Sumérgete en el amarillo universo de Springfield y sorpréndete con cada artículo. ¡Diviértete mientras desentrañamos los misterios sutilmente amarillos de tus personajes favoritos!">
     <title>Sutilmente Amarillo</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico"> 
 </head>
 <body>
     <header>
@@ -27,7 +20,7 @@
             <article class="articuloDetalles">
                 <h2 class="tituloDetalles">Los Simpson son algo más que una serie de "dibujitos"</h2>
                 <figure>
-                    <img class="imgDetalles" src="img/portadaArticulo1.jpg" alt="Los Simpson">
+                    <img class="imgDetalles" src="img/portadaArticulo1.jpg" alt="Los Simpson" loading="lazy">
                     <figcaption>La historia de la familia de Homer explica mucho de por qué es como es en la actualidad, y es especialmente desgarrador que no se haya reconciliado adecuadamente con su madre (Foto: FOX)</figcaption>
                 </figure>
                 <div class="firmaArticulo">
@@ -40,8 +33,8 @@
 
                         Dimensión Cómica y Tierna: Homer es el patriarca de la familia Simpson y, aunque es conocido por su torpeza y comportamiento cómico, también muestra momentos de ternura y amor por su familia. Su relación con su madre es un componente crucial de su desarrollo.</p>
                     <figure class="imgDetalles-texto" >
-                        <img src="img/H.webp" alt="Mona Simpson de joven sujetando una escoba, junto a Homer Simpson de niño jugando">
-                        <figcaption class="imgDetalles-pie">Mona Simpson y Homer Simpson niño. (Foto: FOX) </figcaption>
+                        <img src="img/H.webp" alt="Mona Simpson de joven sujetando una escoba, junto a Homer Simpson de niño jugando" loading="lazy">
+                        <figcaption class="imgDetalles-pie" loading="lazy">Mona Simpson y Homer Simpson niño. (Foto: FOX) </figcaption>
                     </figure>
                 </div>
                 <p class="textoDetalles">Mona Simpson (Madre de Homer):
@@ -51,7 +44,7 @@
                     Reencuentro y Despedida: El episodio "Mother Simpson" revela que Mona ha estado viva y en la clandestinidad durante muchos años. Homer finalmente se reencuentra con su madre, y el episodio explora la complejidad de su relación, así como la emotiva despedida.</p>
                 <div class="contenedor-detalle">
                     <figure class="imgDetalles-texto" >
-                        <img src="img/monaSimpson.webp" alt="Mona Simpson de joven">
+                        <img src="img/monaSimpson.webp" alt="Mona Simpson de joven" loading="lazy">
                         <figcaption class="imgDetalles-pie">Mona Simpson antes de huir de Burns. (Foto: FOX) </figcaption>
                     </figure>
                     <p class="textoDetallesImgLeft textoDetalles">El episodio "Mother Simpson" revela la verdad detrás de la desaparición de la madre de Homer y explora el complejo vínculo entre ellos. Mona Simpson es presentada como una mujer comprometida con sus ideales, lo que explica su separación de la familia. Su regreso y posterior despedida ofrecen una mirada más profunda a la relación entre madre e hijo, mostrando una dimensión emocional y reflexiva de Homer.</p>
@@ -70,11 +63,11 @@
                 <h3 class="tituloDetalles-relacionados">Artículos Relacionados</h3>
                 <ul class="listadoDetalles">
                     <li class="listadoDetalles-articulo">
-                        <img class="listadoDetalles-articulo-img" src="img/portadaArticulo2.jpg" alt="Ned Flanders discutiendo con Maude Flanders, mientras ella sostiene unas toallas">
+                        <img class="listadoDetalles-articulo-img" src="img/portadaArticulo2.jpg" alt="Ned Flanders discutiendo con Maude Flanders, mientras ella sostiene unas toallas" loading="lazy">
                         <a href="detalle2.html">La razón real de la muerte de Maude Flanders</a>
                     </li>
                     <li class="listadoDetalles-articulo">
-                        <img class="listadoDetalles-articulo-img" src="img/portadaArticulo3.jpg" alt="Homer conduciendo al mismo tiempo que mira el móvil. Al lado marge con el móvil confundida.">
+                        <img class="listadoDetalles-articulo-img" src="img/portadaArticulo3.jpg" alt="Homer conduciendo al mismo tiempo que mira el móvil. Al lado marge con el móvil confundida." loading="lazy">
                         <a href="detalle3.html">La profundidad en Los Simpson: Sátira Social y Comentarios Políticos</a>
                     </li>
                 </ul>
@@ -94,5 +87,16 @@
             <p>2023 &copy; Jesús Martínez Hernández</p>
         </div>
     </footer>
+    <script async>
+        const linkMontserrat = document.createElement('link');
+        linkMontserrat.rel = 'stylesheet';
+        linkMontserrat.href = 'https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap';
+        document.head.appendChild(linkMontserrat);
+    
+        const linkRockSaltSans = document.createElement('link');
+        linkRockSaltSans.rel = 'stylesheet';
+        linkRockSaltSans.href = 'https://fonts.googleapis.com/css2?family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+        document.head.appendChild(linkRockSaltSans);
+    </script>
 </body>
 </html>
