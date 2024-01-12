@@ -7,12 +7,6 @@
     <title>Sutilmente Amarillo</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -27,7 +21,7 @@
             <article class="articuloDetalles">
                 <h2 class="tituloDetalles">La razón real de la muerte de Maude Flanders</h2>
                 <figure>
-                    <img class="imgDetalles" src="img/portadaArticulo2.jpg" alt="Ned Flanders discutiendo con Maude Flanders, mientras ella sostiene unas toallas">
+                    <img class="imgDetalles" src="img/portadaArticulo2.jpg" alt="Ned Flanders discutiendo con Maude Flanders, mientras ella sostiene unas toallas" lazy="loading">
                     <figcaption>El matrimonio Flanders en 'Los Simpson'. (Foto: Fox)</figcaption>
                 </figure>
                 <div class="firmaArticulo">
@@ -45,14 +39,14 @@
                 <div class="contenedor-detalle">
                     <p class="textoDetalles textoDetallesImgRight">En el episodio "Alone Again, Natura-Diddily", la muerte de Maude Flanders ocurre de manera trágica durante una carrera de karts. Maude es golpeada por una camiseta disparada desde una pistola de camisetas y cae desde las gradas. Su muerte deja a Ned Flanders viudo y enfrentando los desafíos de criar a sus hijos solo.</p>
                     <figure class="imgDetalles-texto paddingTop30" >
-                        <img src="img/Muerte_de_maude.webp" alt="Escena de la muerte de Maude Flanders">
+                        <img src="img/Muerte_de_maude.webp" alt="Escena de la muerte de Maude Flanders" lazy="loading">
                         <figcaption class="imgDetalles-pie">Escena de la muerte de Maude Flanders. (Foto: FOX) </figcaption>
                     </figure>
                 </div>
                 <p class="textoDetalles">Esta decisión tuvo un impacto significativo en la serie y en los personajes restantes, especialmente en Ned Flanders, quien tuvo que adaptarse a su nueva vida como padre soltero. La muerte de Maude Flanders sigue siendo un momento memorable en la historia de "Los Simpson".</p>
                 <div class="contenedor-detalle">
                     <figure class="imgDetalles-texto" >
-                        <img src="img/MaudeFantasma.webp" alt="Aparición del personaje Maude Flanders en forma de fantasma junto con Ned Flanders">
+                        <img src="img/MaudeFantasma.webp" alt="Aparición del personaje Maude Flanders en forma de fantasma junto con Ned Flanders" lazy="loading">
                         <figcaption class="imgDetalles-pie">Aparición de Maude Flanders en forma de Fantasma. (Foto: FOX) </figcaption>
                     </figure>
                     <p class="textoDetallesImgLeft textoDetalles">A pesar de su fallecimiento, el personaje de Maude Flanders ha tenido algunas apariciones notables después de su muerte en la serie. En varios episodios de "Los Simpson", Maude ha hecho apariciones en forma de fantasmas o en flashbacks que recuerdan momentos previos a su muerte. Estas apariciones suelen ser breves y sirven para recordar a los espectadores el impacto que tuvo su pérdida en los personajes principales.</p>
@@ -86,5 +80,16 @@
             <p>2023 &copy; Jesús Martínez Hernández</p>
         </div>
     </footer>
+    <script async>
+        const linkMontserrat = document.createElement('link');
+        linkMontserrat.rel = 'stylesheet';
+        linkMontserrat.href = 'https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap';
+        document.head.appendChild(linkMontserrat);
+    
+        const linkRockSaltSans = document.createElement('link');
+        linkRockSaltSans.rel = 'stylesheet';
+        linkRockSaltSans.href = 'https://fonts.googleapis.com/css2?family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+        document.head.appendChild(linkRockSaltSans);
+    </script>
 </body>
 </html>
