@@ -7,12 +7,6 @@
     <title>Sutilmente Amarillo</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -27,7 +21,7 @@
             <article class="articuloDetalles">
                 <h2 class="tituloDetalles">La profundidad en Los Simpson: Sátira Social y comentarios políticos</h2>
                 <figure>
-                    <img class="imgDetalles" src="img/portadaArticulo3.jpg" alt="Homer conduciendo al mismo tiempo que mira el móvil. Al lado marge con el móvil confundida.">
+                    <img class="imgDetalles" src="img/portadaArticulo3.jpg" alt="Homer conduciendo al mismo tiempo que mira el móvil. Al lado marge con el móvil confundida." loading="lazy">
                     <figcaption>Problematica de los smartphone en Los Simpson (Foto: FOX)</figcaption>
                 </figure>
                 <div class="firmaArticulo">
@@ -37,7 +31,7 @@
                 <div class="contenedor-detalle">
                     <p class="textoDetalles textoDetallesImgRight">"Los Simpson" es conocido por su aguda sátira social y sus comentarios políticos que se han mantenido a lo largo de sus más de tres décadas en la televisión. La serie se burla de diversos aspectos de la sociedad estadounidense y global, utilizando a la familia Simpson y otros habitantes de Springfield como vehículos para la crítica. Aquí hay algunas características clave:</p>
                     <figure class="imgDetalles-texto paddingTop30" >
-                        <img src="img/Cletus_y_su_familia.webp" alt="Cletus y sus más de 20 hijos">
+                        <img src="img/Cletus_y_su_familia.webp" alt="Cletus y sus más de 20 hijos" loading="lazy">
                         <figcaption class="imgDetalles-pie">Cletus y sus más de 20 hijos. Parodia a las familias de zona sur de Estados Unidos.  (Foto: FOX) </figcaption>
                     </figure>
                 </div>
@@ -55,7 +49,7 @@
                     Problemas sociales como la discriminación, la desigualdad económica, la educación y el medio ambiente son abordados en varios episodios. La serie utiliza el humor para destacar y comentar sobre estas cuestiones de manera accesible para una audiencia amplia.</p>
                 <div class="contenedor-detalle">
                     <figure class="imgDetalles-texto" >
-                        <img class="imgDetalles-texto" src="img/pezMutante.webp" alt="Pez mutante de tres ojos denominado Blinky">
+                        <img class="imgDetalles-texto" src="img/pezMutante.webp" alt="Pez mutante de tres ojos denominado Blinky" loading="lazy">
                         <figcaption class="imgDetalles-pie">El pez de tres ojos es conocido como "Blinky" y apareció por primera vez en el episodio titulado "Two Cars in Every Garage and Three Eyes on Every Fish" (Foto: FOX) </figcaption>
                     </figure>
                         <p class="textoDetalles">El pez de tres ojos puede interpretarse como una crítica humorística y exagerada de los problemas medioambientales y la irresponsabilidad corporativa en la vida real. La serie utiliza elementos absurdos y caricaturescos para destacar problemas del mundo real, aunque de una manera exagerada y cómica.</p>
@@ -100,5 +94,16 @@
             <p>2023 &copy; Jesús Martínez Hernández</p>
         </div>
     </footer>
+    <script async>
+        const linkMontserrat = document.createElement('link');
+        linkMontserrat.rel = 'stylesheet';
+        linkMontserrat.href = 'https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap';
+        document.head.appendChild(linkMontserrat);
+    
+        const linkRockSaltSans = document.createElement('link');
+        linkRockSaltSans.rel = 'stylesheet';
+        linkRockSaltSans.href = 'https://fonts.googleapis.com/css2?family=Rock+Salt&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+        document.head.appendChild(linkRockSaltSans);
+    </script>
 </body>
 </html>
