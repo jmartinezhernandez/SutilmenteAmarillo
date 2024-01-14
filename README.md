@@ -1,6 +1,6 @@
 # Sutilmente Amarillo
 
-Este proyecto consiste en desarrollar un sitio web de la serie de Los Simpson. El sitio explora las curiosidades, mensaje y datos de la familia amarilla.
+Este proyecto consiste en desarrollar un sitio web de la serie de Los Simpson. El sitio explora las curiosidades, mensaje de la familia amarilla.
 
 ## Instalación
 
